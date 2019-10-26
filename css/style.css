@@ -315,9 +315,9 @@ li {
   justify-content: space-between;
 }
 
-#skill .card:first-child {
+/* #skill .card:first-child {
   flex-basis: 100%;
-}
+} */
 
 #skill .skill-icon {
   flex-basis: 75px;
