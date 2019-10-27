@@ -17,7 +17,23 @@ body {
   line-height: 1.8;
   letter-spacing: .8px;
   word-break: break-all;
+  animation-name:fade-in;
+  animation-duration:3s; /*アニメーション時間*/
+  animation-timing-function: ease-in; /*アニメーションさせるイージング*/
+  animation-delay:0s; /*アニメーション開始させる時間*/
+  animation-iteration-count:1; /*繰り返し回数*/
+  animation-direction:normal; /*往復処理をするかどうか*/
+  animation-fill-mode: forwards;
 }
+@keyframes fade-in {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+@-webkit-keyframes fade-in {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
 
 a {
   color: #1ca9e3;
@@ -55,7 +71,6 @@ li {
 
 #wrapper {
   background-color: rgb(253, 228, 245); 
-  /* background-color: rgb(218, 250, 239); */
 }
 
 .inner {
