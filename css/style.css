@@ -252,6 +252,11 @@ li {
   margin-bottom: 8px;
 }
 
+#works .card-youtube {
+  display: block;
+  margin-bottom: 8px;
+}
+
 #works .card-caption-title {
   font-size: 13px;
   font-weight: bold;
