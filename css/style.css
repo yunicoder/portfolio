@@ -17,6 +17,8 @@ body {
   line-height: 1.8;
   letter-spacing: .8px;
   word-break: break-all;
+}
+body,header{
   animation-name:fade-in;
   animation-duration:3s; /*アニメーション時間*/
   animation-timing-function: ease-in; /*アニメーションさせるイージング*/
@@ -89,7 +91,7 @@ li {
 ---------------------------------*/
 
 #header {
-  background-image: url(../img/header/NightCity-minmin.jpeg);
+  background-image: url(../img/header/NightCity-photoshopMin.jpg);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
