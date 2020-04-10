@@ -20,7 +20,7 @@ body {
 }
 body,header{
   animation-name:fade-in;
-  animation-duration:3s; /*アニメーション時間*/
+  animation-duration:2s; /*アニメーション時間*/
   animation-timing-function: ease-in; /*アニメーションさせるイージング*/
   animation-delay:0s; /*アニメーション開始させる時間*/
   animation-iteration-count:1; /*繰り返し回数*/
